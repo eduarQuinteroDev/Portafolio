@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Cascadia Code", sans-serif;
+  font-size: 25px;
+}
+
+.header {
+  border: 1px solid red;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+.header .header__titulo {
+  border: 1px solid green;
+}
+.header .header__menu {
+  border: 1px solid blue;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.header .header__menu i {
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=main.css.map */
