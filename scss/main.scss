@@ -1,6 +1,6 @@
-@import 'abstracts/variables';
-@import 'base/fonts';
-@import 'base/reset';
-@import 'base/typography';
-@import 'pages/home';
+@import 'abstracts/variables'; // variables que se van a usar en el proyecto.
+@import 'base/fonts'; // links de las fuentes del proyecto.
+@import 'base/reset'; // reset de los estilos base.
+@import 'base/typography'; // estilos designados a las fuentes como h1, h2, etc.
+@import 'pages/home'; // estilos generados a la página home.
 

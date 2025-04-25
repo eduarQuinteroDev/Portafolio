@@ -1,4 +1,23 @@
 h1 {
     font-family: $fuente-primaria;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: $fuente-primaria;
+    font-weight: 350;
     font-size: 25px;
+}
+
+h3 {
+    font-family: $fuente-primaria;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+
+p {
+    font-family: $fuente-primaria;
+    font-size: 12px;
 }

@@ -7,29 +7,89 @@
 
 h1 {
   font-family: "Cascadia Code", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: "Cascadia Code", sans-serif;
+  font-weight: 350;
   font-size: 25px;
 }
 
-.header {
-  border: 1px solid red;
+h3 {
+  font-family: "Cascadia Code", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+p {
+  font-family: "Cascadia Code", sans-serif;
+  font-size: 12px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .header {
   height: 50px;
+  width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 10px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
 }
-.header .header__titulo {
-  border: 1px solid green;
-}
-.header .header__menu {
-  border: 1px solid blue;
+body .header .header__menu {
   width: 40px;
   height: 40px;
+  border: 1px solid black;
   border-radius: 4px;
   cursor: pointer;
+  transition: all 0.5s linear;
 }
-.header .header__menu i {
+body .header .header__menu i {
   font-size: 15px;
+}
+body .header .header__menu:hover {
+  color: white;
+  background-color: black;
+}
+body .main {
+  width: 90%;
+  padding: 20px 0;
+}
+body .main .presentacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .main .presentacion .presentacion__contenedor-imagen {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+body .main .presentacion .presentacion__contenedor-imagen .presentacion__imagen {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+body .main .presentacion .nombre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body .main .presentacion .descripcion {
+  width: 100%;
+}
+body .main .presentacion .descripcion .descripcion__contenido {
+  text-align: center;
+  line-height: 1.2;
 }
 
 /*# sourceMappingURL=main.css.map */

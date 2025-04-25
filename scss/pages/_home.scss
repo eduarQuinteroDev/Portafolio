@@ -1,21 +1,107 @@
-.header {
-    border: 1px solid red;
-    height: 50px;
+body {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    padding: 0 10px;
-    .header__titulo {
-        border: 1px solid green;
-    }
-    .header__menu {
-        border: 1px solid blue;
-        width: 40px;
-        height: 40px;
-        border-radius: 4px;
-        cursor: pointer;
-        i {
-            font-size: 15px;
+
+
+    // ESTILOS ASOCIADOS AL ENCABEZADO DE LA PAGINA HOME
+    .header {
+        // border: 1px solid red;
+        height: 50px;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 2px solid $separador;
+
+        // ESTILOD ASOCIADOS AL TITULO PRINCIPAL (PORTAFOLIO)
+        .header__titulo {
+            // border: 1px solid green;
+        }
+
+
+        // ESTILOS ASOCIADOS AL BOTON HAMBURGUESA
+        .header__menu {
+            // border: 1px solid blue;
+            width: 40px;
+            height: 40px;
+            border: 1px solid black;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.5s linear;
+
+            i {
+                font-size: 15px;
+            }
+            &:hover {
+                color: white;
+                background-color: black;
+            }
         }
     }
+
+
+
+    // ESTILOS PARA EL MAIN DE LA PAGINA HOME
+    .main {
+        // border: 1px solid purple;
+        width: 90%;
+        padding: 20px 0;
+        
+        .presentacion {
+            // border: 1px solid green;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+    
+            // ESTILOS CONTENEDOR DE IMAGEN
+            .presentacion__contenedor-imagen {
+                // border: 1px solid red;
+                width: 200px;
+                height: 200px;
+                overflow: hidden;
+    
+    
+                // ESTILOS PARA LA IMAGEN DE PERFIL
+                .presentacion__imagen {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+    
+            // ESTILOS PARA EL NOMBRE PRINCIPAL
+            .nombre {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 60px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            // ESTILOS PARA LA DESCRIPCION
+            .descripcion {
+                // border: 1px solid red;
+                width: 100%;
+                
+                .descripcion__contenido {
+                    text-align: center;
+                    line-height: 1.2;
+                }
+            }
+    
+    
+        }
+
+    }
+    
+
+
+
+
+
 }
