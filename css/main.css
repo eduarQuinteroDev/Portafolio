@@ -19,7 +19,7 @@ h2 {
 
 h3 {
   font-family: "Onest", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 20px;
 }
 
@@ -153,6 +153,9 @@ body .main .tecnologias .tecnologias__titulo {
 body .main .tecnologias .tecnologias__descripcion {
   padding: 10px 0;
 }
+body .main .tecnologias .tecnologias__descripcion span {
+  color: #008fd4;
+}
 body .main .tecnologias .tecnologias__frontend {
   padding: 10px;
   height: 220px;
@@ -229,14 +232,14 @@ body .main .tecnologias .herramientas .herramientas__contenedor p {
   text-align: center;
   font-size: 13px;
 }
-body .main .tecnologias .herramientas .herramientas__contenedor .fa-git-all {
-  color: #f16d40;
+body .main .tecnologias .herramientas .herramientas__contenedor .fa-git-alt {
+  color: #e25131;
 }
 body .main .tecnologias .herramientas .herramientas__contenedor .fa-github {
-  color: #45abe0;
+  color: #black;
 }
 body .main .tecnologias .herramientas .herramientas__contenedor .fa-terminal {
-  color: #f2d761;
+  color: #black;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -176,6 +176,9 @@ body {
             .tecnologias__descripcion {
                 // border: 1px solid blue;
                 padding: 10px 0;
+                span {
+                    color: #008fd4;; 
+                }
             }
 
 
@@ -271,14 +274,14 @@ body {
                         font-size: 13px;
                     }
 
-                    .fa-git-all {
-                        color: #f16d40;
+                    .fa-git-alt {
+                        color: #e25131;
                     }
                     .fa-github {
-                        color: #45abe0;
+                        color: #black;
                     }
                     .fa-terminal {
-                        color: #f2d761;
+                        color: #black;
                     }
                 }
 
