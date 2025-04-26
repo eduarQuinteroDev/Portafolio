@@ -44,16 +44,16 @@ body {
 
     // ESTILOS PARA EL MAIN DE LA PAGINA HOME
     .main {
-        // border: 1px solid purple;
+        border: 1px solid purple;
         width: 90%;
         padding: 20px 0;
         
         .presentacion {
-            // border: 1px solid green;
+            border: 1px solid green;
             display: flex;
             flex-direction: column;
             align-items: center;
-            
+            padding: 10px 0;
     
             // ESTILOS CONTENEDOR DE IMAGEN
             .presentacion__contenedor-imagen {
@@ -77,7 +77,7 @@ body {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                height: 60px;
+                padding: 10px;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -97,7 +97,55 @@ body {
     
         }
 
+
+        // ESTILOS PARA LA SECCION TECNOLOGIAS
+        .tecnologias {
+            border: 1px solid red;
+            height: 70px;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px 0;
+
+            .tecnologias__icono {
+                font-size: 35px;
+                transition: all 0.2s linear;
+                &:hover {
+                    font-size: 40px;
+                }
+            }
+            .fa-html5 {
+                color: #dd4b24;
+            }
+            .fa-css3-alt {
+                color: #32a3d4;
+            }
+            .fa-bootstrap {
+                color: #7910f2;
+            }
+            .fa-sass {
+                color: #c76494;
+            }
+            .fa-js {
+                color: #edd618;
+            }
+            .fa-git-alt {
+                color: #e84e31;
+            }
+        }
+
+
+
+
+
+    
+    
+    
+    
+    
     }
+
     
 
 

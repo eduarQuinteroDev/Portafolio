@@ -57,13 +57,16 @@ body .header .header__menu:hover {
   background-color: black;
 }
 body .main {
+  border: 1px solid purple;
   width: 90%;
   padding: 20px 0;
 }
 body .main .presentacion {
+  border: 1px solid green;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 10px 0;
 }
 body .main .presentacion .presentacion__contenedor-imagen {
   width: 200px;
@@ -79,7 +82,7 @@ body .main .presentacion .nombre {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 60px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -90,6 +93,40 @@ body .main .presentacion .descripcion {
 body .main .presentacion .descripcion .descripcion__contenido {
   text-align: center;
   line-height: 1.2;
+}
+body .main .tecnologias {
+  border: 1px solid red;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+}
+body .main .tecnologias .tecnologias__icono {
+  font-size: 35px;
+  transition: all 0.2s linear;
+}
+body .main .tecnologias .tecnologias__icono:hover {
+  font-size: 40px;
+}
+body .main .tecnologias .fa-html5 {
+  color: #dd4b24;
+}
+body .main .tecnologias .fa-css3-alt {
+  color: #32a3d4;
+}
+body .main .tecnologias .fa-bootstrap {
+  color: #7910f2;
+}
+body .main .tecnologias .fa-sass {
+  color: #c76494;
+}
+body .main .tecnologias .fa-js {
+  color: #edd618;
+}
+body .main .tecnologias .fa-git-alt {
+  color: #e84e31;
 }
 
 /*# sourceMappingURL=main.css.map */
