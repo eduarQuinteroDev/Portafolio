@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: linear-gradient(135deg, #cceeff 0%, #ffffff 60%);
 
 
     // ESTILOS ASOCIADOS AL ENCABEZADO DE LA PAGINA HOME
@@ -14,28 +15,27 @@ body {
         align-items: center;
         border-bottom: 2px solid $separador;
 
-        // ESTILOD ASOCIADOS AL TITULO PRINCIPAL (PORTAFOLIO)
-        .header__titulo {
-            // border: 1px solid green;
+        .header__portafolio {
+            // border: 1px solid red;
+            text-decoration: none;
+            color: black;
+            font-size: 23px;
+            font-family: $fuente-primaria;
+            font-weight: 500;
         }
 
 
         // ESTILOS ASOCIADOS AL BOTON HAMBURGUESA
         .header__menu {
-            // border: 1px solid blue;
             width: 40px;
             height: 40px;
-            border: 1px solid black;
+            border: none;
             border-radius: 4px;
+            background-color: transparent;
             cursor: pointer;
-            transition: all 0.5s linear;
 
             i {
                 font-size: 15px;
-            }
-            &:hover {
-                color: white;
-                background-color: black;
             }
         }
     }
@@ -60,7 +60,9 @@ body {
                 // border: 1px solid red;
                 width: 200px;
                 height: 200px;
+                border-radius: 50%;
                 overflow: hidden;
+                box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.3);
     
     
                 // ESTILOS PARA LA IMAGEN DE PERFIL
@@ -74,6 +76,7 @@ body {
     
             // ESTILOS PARA EL NOMBRE PRINCIPAL
             .nombre {
+                // border: 1px solid red;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -81,59 +84,112 @@ body {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
+
+                span {
+                    color: #008fd4;
+                }
+
+                .nombre__profesion {
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: rgba(0, 0, 0, 0.4);
+                }
             }
+
 
             // ESTILOS PARA LA DESCRIPCION
             .descripcion {
                 // border: 1px solid red;
                 width: 100%;
+                padding: 10px 0;
                 
                 .descripcion__contenido {
-                    text-align: center;
+                    text-align: left;
                     line-height: 1.2;
+                    font-size: 15px;
+                    font-weight: 200;
+                    span {
+                        font-weight: 300;
+                        color: rgba(166, 43, 16, 1);
+                    }
                 }
             }
+
+
+
+
+            // ESTILOS PARA CONTACTO
+            .contacto {
+                // border: 1px solid blue;
+                width: 100%;
+                padding: 10px 0;
+                display: flex;
+                justify-content: space-around;
+
+
+                .contacto__boton {
+                    text-decoration: none;
+                    display: flex;
+                    padding: 5px 7px;
+                    border-radius: 30px;
+                    border: 1px, solid rgba(0, 0, 0, 0.3);
+                    transition: all 0.2s linear;
+
+                    p {
+                        padding: 0 5px;
+                        font-size: 13px;
+                    }
+
+                    .fa-linkedin {
+                        color: #007ab5;
+                        
+                    }
+
+                    .fa-github {
+                        color: black;
+                    }
+
+                    &:hover {
+                        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.3);
+                    }
+
+                }
+
+
+
+
+
+
+                
+
+                
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     
         }
 
 
-        // ESTILOS PARA LA SECCION TECNOLOGIAS
-        .tecnologias {
-            // border: 1px solid red;
-            height: 70px;
-            width: 100%;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            padding: 10px 0;
-
-            .tecnologias__icono {
-                font-size: 35px;
-                transition: all 0.2s linear;
-                &:hover {
-                    font-size: 40px;
-                }
-            }
-            .fa-html5 {
-                color: #dd4b24;
-            }
-            .fa-css3-alt {
-                color: #32a3d4;
-            }
-            .fa-bootstrap {
-                color: #7910f2;
-            }
-            .fa-sass {
-                color: #c76494;
-            }
-            .fa-js {
-                color: #edd618;
-            }
-            .fa-git-alt {
-                color: #e84e31;
-            }
-        }
+        
 
 
 

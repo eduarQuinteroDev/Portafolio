@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -6,25 +6,25 @@
 }
 
 h1 {
-  font-family: "Cascadia Code", sans-serif;
-  font-size: 30px;
-  font-weight: 400;
+  font-family: "Onest", sans-serif;
+  font-size: 33px;
+  font-weight: 600;
 }
 
 h2 {
-  font-family: "Cascadia Code", sans-serif;
+  font-family: "Onest", sans-serif;
   font-weight: 350;
   font-size: 25px;
 }
 
 h3 {
-  font-family: "Cascadia Code", sans-serif;
+  font-family: "Onest", sans-serif;
   font-weight: 300;
   font-size: 15px;
 }
 
 p {
-  font-family: "Cascadia Code", sans-serif;
+  font-family: "Onest", sans-serif;
   font-size: 12px;
 }
 
@@ -32,6 +32,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: linear-gradient(135deg, #cceeff 0%, #ffffff 60%);
 }
 body .header {
   height: 50px;
@@ -41,20 +42,23 @@ body .header {
   align-items: center;
   border-bottom: 2px solid rgba(0, 0, 0, 0.2);
 }
+body .header .header__portafolio {
+  text-decoration: none;
+  color: black;
+  font-size: 23px;
+  font-family: "Onest", sans-serif;
+  font-weight: 500;
+}
 body .header .header__menu {
   width: 40px;
   height: 40px;
-  border: 1px solid black;
+  border: none;
   border-radius: 4px;
+  background-color: transparent;
   cursor: pointer;
-  transition: all 0.5s linear;
 }
 body .header .header__menu i {
   font-size: 15px;
-}
-body .header .header__menu:hover {
-  color: white;
-  background-color: black;
 }
 body .main {
   width: 90%;
@@ -69,7 +73,9 @@ body .main .presentacion {
 body .main .presentacion .presentacion__contenedor-imagen {
   width: 200px;
   height: 200px;
+  border-radius: 50%;
   overflow: hidden;
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.3);
 }
 body .main .presentacion .presentacion__contenedor-imagen .presentacion__imagen {
   width: 100%;
@@ -85,45 +91,54 @@ body .main .presentacion .nombre {
   flex-direction: column;
   justify-content: center;
 }
+body .main .presentacion .nombre span {
+  color: #008fd4;
+}
+body .main .presentacion .nombre .nombre__profesion {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.4);
+}
 body .main .presentacion .descripcion {
   width: 100%;
-}
-body .main .presentacion .descripcion .descripcion__contenido {
-  text-align: center;
-  line-height: 1.2;
-}
-body .main .tecnologias {
-  height: 70px;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   padding: 10px 0;
 }
-body .main .tecnologias .tecnologias__icono {
-  font-size: 35px;
+body .main .presentacion .descripcion .descripcion__contenido {
+  text-align: left;
+  line-height: 1.2;
+  font-size: 15px;
+  font-weight: 200;
+}
+body .main .presentacion .descripcion .descripcion__contenido span {
+  font-weight: 300;
+  color: rgb(166, 43, 16);
+}
+body .main .presentacion .contacto {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+}
+body .main .presentacion .contacto .contacto__boton {
+  text-decoration: none;
+  display: flex;
+  padding: 5px 7px;
+  border-radius: 30px;
+  border: 1px, solid rgba(0, 0, 0, 0.3);
   transition: all 0.2s linear;
 }
-body .main .tecnologias .tecnologias__icono:hover {
-  font-size: 40px;
+body .main .presentacion .contacto .contacto__boton p {
+  padding: 0 5px;
+  font-size: 13px;
 }
-body .main .tecnologias .fa-html5 {
-  color: #dd4b24;
+body .main .presentacion .contacto .contacto__boton .fa-linkedin {
+  color: #007ab5;
 }
-body .main .tecnologias .fa-css3-alt {
-  color: #32a3d4;
+body .main .presentacion .contacto .contacto__boton .fa-github {
+  color: black;
 }
-body .main .tecnologias .fa-bootstrap {
-  color: #7910f2;
-}
-body .main .tecnologias .fa-sass {
-  color: #c76494;
-}
-body .main .tecnologias .fa-js {
-  color: #edd618;
-}
-body .main .tecnologias .fa-git-alt {
-  color: #e84e31;
+body .main .presentacion .contacto .contacto__boton:hover {
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.3);
 }
 
 /*# sourceMappingURL=main.css.map */
