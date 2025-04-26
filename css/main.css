@@ -57,12 +57,10 @@ body .header .header__menu:hover {
   background-color: black;
 }
 body .main {
-  border: 1px solid purple;
   width: 90%;
   padding: 20px 0;
 }
 body .main .presentacion {
-  border: 1px solid green;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -95,7 +93,6 @@ body .main .presentacion .descripcion .descripcion__contenido {
   line-height: 1.2;
 }
 body .main .tecnologias {
-  border: 1px solid red;
   height: 70px;
   width: 100%;
   display: flex;
