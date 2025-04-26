@@ -105,12 +105,12 @@ body {
                 
                 .descripcion__contenido {
                     text-align: left;
-                    line-height: 1.2;
+                    line-height: 1.5;
                     font-size: 15px;
-                    font-weight: 200;
+                    font-weight: 600;
+                    color: rgba(0, 0, 0, 0.6);
                     span {
-                        font-weight: 300;
-                        color: rgba(166, 43, 16, 1);
+                        color: rgba(166, 43, 16, 0.6);
                     }
                 }
             }
@@ -156,13 +156,132 @@ body {
                 }
 
 
-
-
-
-
                 
+            }
 
-                
+
+    
+        }
+
+        .tecnologias {
+            // border: 1px solid red;
+            padding: 10px 0;
+
+            .tecnologias__titulo {
+                // border: 1px solid green;
+                padding: 20px 0;
+            }
+
+
+            .tecnologias__descripcion {
+                // border: 1px solid blue;
+                padding: 10px 0;
+            }
+
+
+            .tecnologias__frontend {
+                // border: 1px solid purple;
+                padding: 10px;
+                height: 220px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                flex-wrap: wrap;
+                box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.3);
+                border-radius: 8px;
+
+                .tecnologias__frontend-titulo {
+                    // border: 1px solid red;
+                    width: 100%;
+                    text-align: center;
+                    color: rgba(0, 143, 212, 1);
+                    
+                }
+
+                .tecnologias__frontend-contenedor {
+                    // border: 1px solid red;
+                    display: flex;
+                    flex-direction: column;
+                    width: 70px;
+                    height: 70px;
+                    justify-content: center;
+
+                    i {
+                        font-size: 50px;
+                        text-align: center;
+                    }
+                    p {
+                        text-align: center;
+                        font-size: 13px;
+                    }
+
+                    .fa-html5 {
+                        color: #f16d40;
+                    }
+                    .fa-css3-alt {
+                        color: #45abe0;
+                    }
+                    .fa-js {
+                        color: #f2d761;
+                    }
+                    .fa-sass {
+                        color: #d46ca4;
+                    }
+                    .fa-bootstrap {
+                        color: #7910f2;
+                    }
+                }
+
+            }
+
+            .herramientas {
+                // border: 1px solid purple;
+                padding: 10px;
+                height: 220px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                flex-wrap: wrap;
+                box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.3);
+                border-radius: 8px;
+                margin-top: 15px;
+
+                .herramientas__titulo {
+                    // border: 1px solid red;
+                    width: 100%;
+                    text-align: center;
+                    color: rgba(0, 143, 212, 1);
+                    
+                }
+
+                .herramientas__contenedor {
+                    // border: 1px solid red;
+                    display: flex;
+                    flex-direction: column;
+                    width: 70px;
+                    height: 70px;
+                    justify-content: center;
+
+                    i {
+                        font-size: 50px;
+                        text-align: center;
+                    }
+                    p {
+                        text-align: center;
+                        font-size: 13px;
+                    }
+
+                    .fa-git-all {
+                        color: #f16d40;
+                    }
+                    .fa-github {
+                        color: #45abe0;
+                    }
+                    .fa-terminal {
+                        color: #f2d761;
+                    }
+                }
+
             }
 
 
@@ -171,21 +290,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
         }
 
 

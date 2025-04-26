@@ -13,19 +13,23 @@ h1 {
 
 h2 {
   font-family: "Onest", sans-serif;
-  font-weight: 350;
+  font-weight: 600;
   font-size: 25px;
 }
 
 h3 {
   font-family: "Onest", sans-serif;
-  font-weight: 300;
-  font-size: 15px;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 p {
   font-family: "Onest", sans-serif;
-  font-size: 12px;
+  text-align: left;
+  line-height: 1.5;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 body {
@@ -105,13 +109,13 @@ body .main .presentacion .descripcion {
 }
 body .main .presentacion .descripcion .descripcion__contenido {
   text-align: left;
-  line-height: 1.2;
+  line-height: 1.5;
   font-size: 15px;
-  font-weight: 200;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6);
 }
 body .main .presentacion .descripcion .descripcion__contenido span {
-  font-weight: 300;
-  color: rgb(166, 43, 16);
+  color: rgba(166, 43, 16, 0.6);
 }
 body .main .presentacion .contacto {
   width: 100%;
@@ -139,6 +143,100 @@ body .main .presentacion .contacto .contacto__boton .fa-github {
 }
 body .main .presentacion .contacto .contacto__boton:hover {
   box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.3);
+}
+body .main .tecnologias {
+  padding: 10px 0;
+}
+body .main .tecnologias .tecnologias__titulo {
+  padding: 20px 0;
+}
+body .main .tecnologias .tecnologias__descripcion {
+  padding: 10px 0;
+}
+body .main .tecnologias .tecnologias__frontend {
+  padding: 10px;
+  height: 220px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+}
+body .main .tecnologias .tecnologias__frontend .tecnologias__frontend-titulo {
+  width: 100%;
+  text-align: center;
+  color: rgb(0, 143, 212);
+}
+body .main .tecnologias .tecnologias__frontend .tecnologias__frontend-contenedor {
+  display: flex;
+  flex-direction: column;
+  width: 70px;
+  height: 70px;
+  justify-content: center;
+}
+body .main .tecnologias .tecnologias__frontend .tecnologias__frontend-contenedor i {
+  font-size: 50px;
+  text-align: center;
+}
+body .main .tecnologias .tecnologias__frontend .tecnologias__frontend-contenedor p {
+  text-align: center;
+  font-size: 13px;
+}
+body .main .tecnologias .tecnologias__frontend .tecnologias__frontend-contenedor .fa-html5 {
+  color: #f16d40;
+}
+body .main .tecnologias .tecnologias__frontend .tecnologias__frontend-contenedor .fa-css3-alt {
+  color: #45abe0;
+}
+body .main .tecnologias .tecnologias__frontend .tecnologias__frontend-contenedor .fa-js {
+  color: #f2d761;
+}
+body .main .tecnologias .tecnologias__frontend .tecnologias__frontend-contenedor .fa-sass {
+  color: #d46ca4;
+}
+body .main .tecnologias .tecnologias__frontend .tecnologias__frontend-contenedor .fa-bootstrap {
+  color: #7910f2;
+}
+body .main .tecnologias .herramientas {
+  padding: 10px;
+  height: 220px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  margin-top: 15px;
+}
+body .main .tecnologias .herramientas .herramientas__titulo {
+  width: 100%;
+  text-align: center;
+  color: rgb(0, 143, 212);
+}
+body .main .tecnologias .herramientas .herramientas__contenedor {
+  display: flex;
+  flex-direction: column;
+  width: 70px;
+  height: 70px;
+  justify-content: center;
+}
+body .main .tecnologias .herramientas .herramientas__contenedor i {
+  font-size: 50px;
+  text-align: center;
+}
+body .main .tecnologias .herramientas .herramientas__contenedor p {
+  text-align: center;
+  font-size: 13px;
+}
+body .main .tecnologias .herramientas .herramientas__contenedor .fa-git-all {
+  color: #f16d40;
+}
+body .main .tecnologias .herramientas .herramientas__contenedor .fa-github {
+  color: #45abe0;
+}
+body .main .tecnologias .herramientas .herramientas__contenedor .fa-terminal {
+  color: #f2d761;
 }
 
 /*# sourceMappingURL=main.css.map */
